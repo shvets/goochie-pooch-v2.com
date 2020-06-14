@@ -106,7 +106,7 @@ export default class HomePage extends Vue {
 
 .map {
   width: 50rem;
-  height: 30rem;
+  height: 29rem;
 }
 
 .plain-text {

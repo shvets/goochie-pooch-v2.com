@@ -16,12 +16,13 @@
 <!--      <li>-->
 <!--        <router-link to="/pooring-corner">Pooring Corner</router-link>-->
 <!--      </li>-->
-      <li>
-        <router-link to="/links">Links</router-link>
-      </li>
 
       <li>
         <router-link to="/coupons">Coupons</router-link>
+      </li>
+
+      <li>
+        <router-link to="/links">Links</router-link>
       </li>
 
       <li>
