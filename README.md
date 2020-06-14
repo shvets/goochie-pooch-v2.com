@@ -9,14 +9,15 @@ heroku login -i
 
 heroku apps
 
-heroku buildpacks:add heroku/nodejs
-heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
-
 cd ~/myapp
 
 yarn build
 
 heroku create
+heroku buildpacks:add heroku/nodejs
+heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
+
+heroku git:remote -a goochie-pooch-v2
 
 git push heroku master
 
