@@ -4,19 +4,21 @@
       <Header/>
     </template>
 
-    <Split direction="horizontal" :gutter-size="0">
-      <SplitArea :size="20">
-        <Menu/>
-      </SplitArea>
+    <div class="main">
+      <Split direction="horizontal" :gutter-size="0">
+        <SplitArea :size="25">
+          <Menu/>
+        </SplitArea>
 
-      <SplitArea :size="55">
-        <slot />
-      </SplitArea>
+        <SplitArea :size="75">
+          <slot />
+        </SplitArea>
 
-      <SplitArea :size="25">
-        <Sidebar/>
-      </SplitArea>
-    </Split>
+        <!--      <SplitArea :size="20">-->
+        <!--        <Sidebar/>-->
+        <!--      </SplitArea>-->
+      </Split>
+    </div>
 
     <template #footer>
       <Footer/>
@@ -35,14 +37,12 @@ import '../../assets/styles/index.scss';
 import Layout from './Layout.vue';
 import Header from './Header.vue';
 import Menu from './Menu.vue';
-import Sidebar from './Sidebar.vue';
 import Footer from './Footer.vue';
 
 const components = {
   Layout,
   Header,
   Menu,
-  Sidebar,
   Footer
 };
 

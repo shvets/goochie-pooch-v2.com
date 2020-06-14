@@ -31,13 +31,13 @@ header {
     height: inherit;
   }
 
-  .title {
-    padding-left: 5rem;
-    font-family: Reenie Beanie, arial, serif;
-    color: var(--tetriary-color);
-    font-size: 80px;
-    font-weight: bold;
-  }
+  //.title {
+  //  //padding-left: 5rem;
+  //  font-family: Reenie Beanie, arial, serif;
+  //  color: var(--tetriary-color);
+  //  //font-size: 40px;
+  //  //font-weight: bold;
+  //}
 }
 
 main {
@@ -55,25 +55,30 @@ main {
 footer {
   height: 5vh;
   //border: 1px yellow solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  text-align: center;
   background-color: var(--primary-background-color);
-  font: 14px Helvetica;
+  font: 10px Helvetica;
   color: var(--tetriary-color);
   font-weight: bold;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-}
+//.sidebar {
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  padding: 0.5rem;
+//}
 
 //#app {
 //  width: inherit;
 //  height: inherit;
 //}
+
+.el-carousel-mask {
+  width: auto;
+}
 

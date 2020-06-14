@@ -21,6 +21,10 @@
       </li>
 
       <li>
+        <router-link to="/coupons">Coupons</router-link>
+      </li>
+
+      <li>
         <router-link to="/about-us">About Us</router-link>
       </li>
     </ul>

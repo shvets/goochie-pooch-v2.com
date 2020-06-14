@@ -14,6 +14,7 @@ cd ~/myapp
 yarn build
 
 heroku create
+
 heroku buildpacks:add heroku/nodejs
 heroku buildpacks:add https://github.com/heroku/heroku-buildpack-static
 

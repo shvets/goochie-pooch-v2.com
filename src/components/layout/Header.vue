@@ -1,14 +1,12 @@
 <template>
-  <div class="nav">
-    <div class="title">
+  <div class="nav header">
+    <div class="company-title">
       Goochie Pooch & Cats Too
     </div>
 
     <div class="facebook">
-      <span>Visit us on facebook:</span>
-
       <a href="https://www.facebook.com/goochie.pooch" target="parent">
-        <img class="facebook-logo" src="../../assets/images/facebook.png">
+        <img class="facebook-logo" src="../../assets/images/facebook.png" alt="" title="Visit us on facebook">
       </a>
     </div>
 
@@ -33,10 +31,10 @@ export default class AppLayout extends mixins(AppThemeMixin) {}
 
 <style lang="scss" scoped>
 .facebook {
-  width: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  /*width: 10rem;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-around;*/
 }
 
 .facebook-logo {

@@ -94,13 +94,13 @@ export default class HomePage extends Vue {
 </script>
 
 <style lang="scss" scoped>
-.title {
-  color: var(--secondary-color);
-  font-size: 42px;
-}
+/*.title {*/
+/*  color: var(--secondary-color);*/
+/*  !*font-size: 42px;*!*/
+/*}*/
 
 .building {
-  width: 77%;
+  width: 70vh;
   height: auto;
 }
 
@@ -116,7 +116,7 @@ export default class HomePage extends Vue {
 .telephone a {
   font-family: Reenie Beanie,arial;
   color: var(--tetriary-color);
-  font-size: 80px;
+  font-size: 40px;
 }
 
 /*.site-ui {*/

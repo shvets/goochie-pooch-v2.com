@@ -26,6 +26,9 @@ const PooringCornerPage = () => import(/* webpackChunkName: "pooring-corner-page
 const LinksPage = () => import(/* webpackChunkName: "links-page" */
     '@/views/LinksPage.vue');
 
+const CouponsPage = () => import(/* webpackChunkName: "coupons-page" */
+  '@/views/CouponsPage.vue');
+
 const PrintCouponPage = () => import(/* webpackChunkName: "print-coupon-page" */
   '@/views/PrintCouponPage.vue');
 
@@ -84,6 +87,9 @@ const routes: RouteConfig[] = [
       },
       {
         path: 'links', name: 'links', component: LinksPage
+      },
+      {
+        path: 'coupons', name: 'coupons', component: CouponsPage
       },
       {
         path: 'print-coupon', name: 'print-coupon', component: PrintCouponPage,

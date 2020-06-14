@@ -17,7 +17,7 @@
     margin-right: 3px;
     text-decoration: none;
     font-family: "Graublau Web", Helvetica, Arial, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     color: var(--menu-color);
 
     //&:hover {
@@ -39,5 +39,17 @@
 }
 
 .theme-control {
+  padding-left: 1rem;
   width: 3rem;
 }
+
+h1 {
+  font-size: 1rem;
+}
+
+.company-title {
+  font-family: Reenie Beanie, arial, serif;
+  color: var(--tetriary-color);
+  font-size: 2rem;
+}
+
