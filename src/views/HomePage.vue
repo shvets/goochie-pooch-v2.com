@@ -1,3 +1,4 @@
+<!--suppress HtmlUnknownTag -->
 <template>
   <AppLayout>
     <div class="site-ui">
@@ -33,7 +34,7 @@
           </p>
 
           <div class="telephone">
-            <a href="tel:732-432-919" title="Call to Goochie Pooch">732-432-919</a>
+            <a href="tel:732-432-9191" title="Call to Goochie Pooch">732-432-9191</a>
           </div>
 
           <p class="plain-text">
@@ -109,7 +110,7 @@ export default class HomePage extends Vue {
 }
 
 .plain-text {
-  font-family: Jost;
+  font-family: Jost,serif;
 }
 
 .telephone a {
